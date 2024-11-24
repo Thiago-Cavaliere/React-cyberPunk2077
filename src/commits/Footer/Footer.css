@@ -1,0 +1,39 @@
+/* styles.css */
+
+footer {
+    background-color: rgb(19, 18, 18); /* Altere para 'black' para fundo preto */
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-content p {
+    margin: 0;
+}
+
+footer ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+footer ul li {
+    display: inline;
+    margin: 30px;
+}
+
+footer ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+footer ul li a:hover {
+    text-decoration: underline;
+}
+/* Adiciona um espaço no topo do footer */
+footer {
+    background-color: rgb(19, 18, 18); 
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    margin-top: 50px; /* Adiciona espaço acima do footer */
+}

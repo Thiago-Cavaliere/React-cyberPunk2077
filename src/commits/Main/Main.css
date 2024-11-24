@@ -1,0 +1,75 @@
+/* Corpo da página */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif; /* Fonte padrão para o body */
+  background-image: url("../../assets/FUNDOS.jpg"); /* Coloque o caminho da sua imagem aqui */
+  background-size: cover; /* Faz com que a imagem cubra todo o fundo */
+  background-repeat: no-repeat; /* Evita a repetição da imagem */
+  background-attachment: fixed; /* Faz com que a imagem não se mova ao rolar a página */
+}
+
+/* Aplicando a fonte Titillium Web ao h1 */
+h1 {
+  font-family: "Titillium Web", sans-serif; /* Aplica a fonte Titillium Web */
+  font-weight: 200;
+  font-style: normal;
+  text-align: center; /* Centraliza o texto horizontalmente */
+  font-size: 2rem; /* Tamanho da fonte */
+  color: #333; /* Cor do texto */
+  margin-bottom: 20px; /* Espaço abaixo do título */
+}
+
+/* Aplicando a fonte Titillium Web ao h2 e h3 */
+h2,
+h3 {
+  font-family: "Titillium Web", sans-serif; /* Aplica a fonte Titillium Web */
+  text-align: justify; /* Centraliza o texto horizontalmente */
+  font-size: 1.5rem; /* Tamanho da fonte */
+  color: #333; /* Cor do texto */
+  margin-bottom: 20px; /* Espaço abaixo do título */
+}
+
+/* Estilo para as imagens */
+img {
+  width: 70%;
+  height: auto;
+  max-width: 700px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+/* Estilo para o contêiner principal */
+.main-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  min-height: 20vh;
+  text-align: justify;
+}
+
+/* Estilo para os textos dentro do main-container */
+.main-container,
+h2 {
+  text-align: center;
+  max-width: 700px;
+  color: #131212;
+  line-height: 1;
+  margin: 0;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: inherit;
+  font-size: 1.2rem;
+}
+
+/* Corpo da página */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif; /* Fonte padrão para o body */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
