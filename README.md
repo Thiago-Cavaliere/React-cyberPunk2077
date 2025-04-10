@@ -18,4 +18,4 @@ Este é um site feito para fãs do seriado Cyberpunk, onde compartilho informaç
 Clone este repositório para o seu computador:
 
 ```bash
-git clone https://github.com/seu-usuario/cyberpunk-series.git
+git clone https://github.com/Thiago-Cavaliere/React-cyberPunk2077.git
